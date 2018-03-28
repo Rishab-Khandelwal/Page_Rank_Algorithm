@@ -1,0 +1,7 @@
+Number of pages with no outlinks in the BFS graph is : 7
+
+Number of pages with no inlinks count in the BFS graph is :0
+
+The number of pages with no inlinks in the DFS graph is : 0
+
+The number of pages with outlinks in the DFS graph is : 24

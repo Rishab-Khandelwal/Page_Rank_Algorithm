@@ -1,0 +1,95 @@
+Goal:	Link Analysis and PageRank Implementation
+
+The tasks for this assignment are as follows : 
+
+Task1: Obtaining directed web graphs
+
+In task1 I have built a graph over the	set	of	the	1000 URLs that I crawled in	HW1-Task1 (unfocused with Breadth-First	crawling).
+The inlink graph of BFS crawling is in file G1.txt and the inlink graph for the DFS crawling is in the file G2.txt.
+
+
+
+Task 2 : Link Analysis and Implementaion : 
+
+The Page Rank Algorithm is in the fie Page_Rank.py
+Then the iterative version of the page rank algorithm is run on G1 and G2 respectively until their PageRank	values "converge".
+To test for converge the perplexity value is calculated for the page Rank distribution, where perplexity is simply 2 raised	to the (Shannon) entropy of	the	PageRank distribution,i.e.,	2^H	(PR).	
+
+In the implementaion PageRank is considered	as converged if the change in perplexity is	less than 1 for	at least four consecutive	iterations.
+
+Also TestGraph.txt file is the file where initially the Page Rank was tested and the final ranking list is :A>E>(F,C)>B>D(F	and	C	have the same PageRank value)
+
+Task 2C : 	Performed the following runs for both graphs G1 and G2. As a baseline for comparison,I have	used the resulting PageRank for G1(BFS) from Task2-B.
+
+1)Re-ran the PageRank algorithm using a damping	factor d = 0.55. Does that affect the process and the resulting PageRank with respect to the baseline.Also Discussed the results.
+2)Re-ran the PageRank algorithm in Task2-B for exactly 4 iterations.Also Discussed the results obtained with respect to	the	baseline.
+3)Sort the documents based on their	raw	in-link	count. Compare the top 10 documents	in this	run	to those obtained in Task2-B.Also discussed the	pros and cons of using the in-link count as	an alternative to PageRank (addressed at least 2 pros and 2	cons).
+-----------------------------------------------------
+
+Usage Notes : 
+
+Install python 2.7
+Install BeautifulSoup by using command 'pip install beautifulsoup4'
+
+Instruction to Run the PageRank Algorithm : 
+
+python Page_Rank.py . 
+Tune the value of damping factor according to the requirement.Default value of damping factor set is 0.85
+Also change the graph file to be read in the function takeGrap().Default graph given is G1.txt.
+
+----------------------------------------------------
+File Structure : 
+
+1) G1.txt - inlink graph for BFS
+2) G2.txt - inlink graph for DFS
+3) File_Perplexity_G1_Graph.txt - File perplexity value for G1 graph(BFS graph)
+4) File_Perplexity_G2_Graph.txt - File perplexity value for G2 graph(DFS graph)
+5) Page_Rank.py - Page Rank implementaion 
+6) Statistical Report - 
+7) Task 2-C.txt  - File containing answers to Task 2C
+8) TestGraph.txt  - Test graph to test my initial PageRank implementation.
+9) Top_50_PageRank_G1.txt - Top 50 links having the highest PageRank value for graph G1.
+10)Top_50_PageRank_G2.txt - Top 50 links having the highest PageRank value for graph G2.
+
+-----------------------------------------------------
+
+
+Top 10 pages with their inlink counts for Graph G1.txt are :  
+
+('Argentina', 628)
+('Buenos_Aires', 404)
+('Spanish_language', 259)
+('Brazil', 227)
+('Chile', 222)
+('Geographic_coordinate_system', 197)
+('Uruguay', 191)
+('Buenos_Aires_Province', 168)
+('President_of_Argentina', 166)
+('Bolivia', 160)
+
+
+------------------------------------------------------
+
+Top 10 pages with their inlink counts for Graph G2.txt are :  
+
+('Solar_eclipse', 687)
+('Eclipse', 632)
+('Solar_eclipses_on_the_Moon', 596)
+('Moon', 559)
+('Sun', 553)
+('Transit_(astronomy)', 532)
+('Solar_eclipse_of_August_11,_1999', 530)
+('Saros_(astronomy)', 525)
+('Solar_eclipse_of_August_21,_2017', 525)
+('Solar_eclipse_of_May_29,_1919', 525)
+
+-------------------------------------------------------
+
+
+CITATIONS : 
+
+
+1. https://www.crummy.com/software/BeautifulSoup/
+2. https://docs.python.org/2.7/tutorial/
+3. http://www.nltk.org/
+4. http://pythonhosted.org/pyenchant/

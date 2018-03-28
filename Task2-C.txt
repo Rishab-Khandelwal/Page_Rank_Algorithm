@@ -1,0 +1,334 @@
+
+
+For a damping factor of 0.85 , the results for Page Rank value for G1.txt are : 
+
+('Wayback_Machine', 0.023393254052588925)
+('International_Standard_Book_Number', 0.02151738109410135)
+('Integrated_Authority_File', 0.018074497722621985)
+('Digital_object_identifier', 0.01740042833710218)
+('Library_of_Congress_Control_Number', 0.013232132129553863)
+('Bibcode', 0.009541795940408628)
+('PubMed_Identifier', 0.007964257769863257)
+('National_Diet_Library', 0.00639866757911535)
+('OCLC', 0.005832270521026301)
+('Astronomy', 0.005702296660279012)
+('Moon', 0.0054313768766297826)
+
+For a damping factor of 0.55 , the Page Rank results for G1.txt are  : 
+
+('International_Standard_Book_Number', 0.01594524898259554)
+('Digital_object_identifier', 0.011858711951392755)
+('Wayback_Machine', 0.011789479587115235)
+('Integrated_Authority_File', 0.010652063497716007)
+('Library_of_Congress_Control_Number', 0.008093149622426531)
+('Bibcode', 0.006695738201852978)
+('PubMed_Identifier', 0.005096224707008657)
+('Moon', 0.0047006978323169395)
+('National_Diet_Library', 0.004361249727854581)
+('Earth', 0.00424014682746631)
+('Sun', 0.004173554077328746)
+
+
+
+After changing the damping factor to 0.55 , Yes the Page Rank Value changes.For ex. Wayback_Machine which was at the top in the damping factor for 0.85 has now gone to 3rd position in the list for Page Rank values.Many of the pages are common in the top 10 list of Page Rank values of both the graphs for damping factor of 0.55 and 0.85.
+By decreasing the damping factor we are increasing the teleportation rate, and hence there is a lesser probability to do a random walk on one of the outgoing pages and more probability of doing a teleportation.So in the case when damping factor is 0.55 , there is almost an equal probability of doing a teleportation or a random walk.
+As we keep on decreasing the damping factor the proabability of teleportation would increase and the results obtained might not be that good . This is because for 0 damping factor the results obtained might be totally random.
+
+Also for 0.55 damping factor the PageRank values converge faster as shown below.
+The value of perlexity for damping factor = 0.55 is higher as compared to the one with damping factor = 0.85
+
+The perplexity values for PageRank on Graph G1.txt for damping factor = 0.55 is : 
+Perplexity for iteration 1 is : 869.309939805
+Perplexity for iteration 2 is : 855.11588018
+Perplexity for iteration 3 is : 849.242324118
+Perplexity for iteration 4 is : 848.964315499
+Perplexity for iteration 5 is : 849.501146532
+Perplexity for iteration 6 is : 849.778432136
+Perplexity for iteration 7 is : 849.935336496 
+
+Whereas the perplexity values for PageRank on Graph G1.txt for damping factor = 0.85 is :
+Perplexity for iteration 1 is : 744.376201586
+Perplexity for iteration 2 is : 704.203010086
+Perplexity for iteration 3 is : 680.898831551
+Perplexity for iteration 4 is : 678.495174194
+Perplexity for iteration 5 is : 682.839738263
+Perplexity for iteration 6 is : 686.184096309
+Perplexity for iteration 7 is : 689.108383881
+Perplexity for iteration 8 is : 691.554721796
+Perplexity for iteration 9 is : 693.495532449
+Perplexity for iteration 10 is : 695.040917017
+Perplexity for iteration 11 is : 696.247531005
+Perplexity for iteration 12 is : 697.18650022
+Perplexity for iteration 13 is : 697.913932867
+Perplexity for iteration 14 is : 698.476541325
+Perplexity for iteration 15 is : 698.910983833
+
+
+
+For a damping factor of 0.85 , the results for Page Rank value for G2.txt are : 
+
+('Argentina', 0.02570466587555244)
+('Brazil', 0.01368501118438618)
+('Spanish_language', 0.012928403659576928)
+('Buenos_Aires', 0.012732723555648983)
+('United_Nations', 0.009802027934217146)
+('Chile', 0.009607276402852465)
+('Geographic_coordinate_system', 0.008953290652162424)
+('French_language', 0.007747893738275873)
+('Uruguay', 0.007496617180896127)
+('Peru', 0.007254442444261534)
+('Bolivia', 0.006827425805581671)
+
+For a damping factor of 0.55 , the Page Rank results for G2.txt are :
+
+('Argentina', 0.02212341032835986)
+('Buenos_Aires', 0.012176302732900919)
+('Spanish_language', 0.009108777388686658)
+('Brazil', 0.00900662215906894)
+('Geographic_coordinate_system', 0.007538325809408597)
+('Chile', 0.0062798196004040085)
+('United_Nations', 0.0058416450257363075)
+('Uruguay', 0.005334548890779703)
+('Peru', 0.004643898195964391)
+('French_language', 0.0044067407936985966)
+('Bolivia', 0.004363723252897102)
+
+
+After changing the damping factor to 0.55 , Yes the Page Rank Value changes.For ex. Buenos_Aires which was at 4th position in the damping factor for 0.85 has now gone to 2nd position in the list for Page Rank values.Many of the pages are common in the top 10 list of Page Rank values of both the graphs for damping factor of 0.55 and 0.85.
+By decreasing the damping factor we are increasing the teleportation rate, and hence there is a lesser probability to do a random walk on one of the outgoing pages and more probability of doing a teleportation.So in the case when damping factor is 0.55 , there is almost an equal probability of doing a teleportation or a random walk.
+As we keep on decreasing the damping factor the proabability of teleportation would increase and the results obtained might not be that good . This is because for 0 damping factor the results obtained might be totally random.
+
+Also for 0.55 damping factor the PageRank values converge faster as shown below.
+The value of perlexity for damping factor = 0.55 is higher as compared to the one with damping factor = 0.85
+
+Also the perplexity values obtained for damping factor = 0.85 are :
+Perplexity for iteration 1 is : 540.16777228
+Perplexity for iteration 2 is : 618.870682373
+Perplexity for iteration 3 is : 590.401497579
+Perplexity for iteration 4 is : 587.097160549
+Perplexity for iteration 5 is : 582.385782354
+Perplexity for iteration 6 is : 579.764630096
+Perplexity for iteration 7 is : 578.058710344
+Perplexity for iteration 8 is : 576.895975068
+Perplexity for iteration 9 is : 576.148776618
+Perplexity for iteration 10 is : 575.631199344
+Perplexity for iteration 11 is : 575.289317242
+Perplexity for iteration 12 is : 575.049911149
+
+And the perplexity values obtained for damping factor = 0.55 are : 
+Perplexity for iteration 1 is : 745.383707828
+Perplexity for iteration 2 is : 786.116464818
+Perplexity for iteration 3 is : 779.575959262
+Perplexity for iteration 4 is : 779.619000312
+Perplexity for iteration 5 is : 779.289233055
+Perplexity for iteration 6 is : 779.185653687
+Perplexity for iteration 7 is : 779.142874935
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+The Page Rank values for Graph G1.txt for exactly 4 iterations are (damping factor = 0.85):
+
+
+('Wayback_Machine', 0.02572451417976219)
+('International_Standard_Book_Number', 0.023231960900535958)
+('Integrated_Authority_File', 0.019705805792964354)
+('Digital_object_identifier', 0.018749328240215628)
+('Library_of_Congress_Control_Number', 0.014305059951995467)
+('Bibcode', 0.010271206064134281)
+('PubMed_Identifier', 0.008613448338048354)
+('National_Diet_Library', 0.006977093520291712)
+('OCLC', 0.00635401802579326)
+('Astronomy', 0.006100856976846131)
+('Moon', 0.005763456830738179)
+('PubMed_Central', 0.00531279824594456)
+('Earth', 0.005233856766707122)
+('Canada', 0.005220710512951992)
+('Sun', 0.0050947823313448205)
+('ArXiv', 0.004851556683932941)
+('Solar_eclipse', 0.0033671156628682724)
+('United_Kingdom', 0.0032312059979196558)
+('NASA', 0.002980658440947869)
+('Solar_System', 0.002812278825254697)
+('Eclipse', 0.0025797216842943335)
+('Russia', 0.0021757719293318744)
+
+
+The perplexity values for Graph G1.txt for exactly 4 iterations are (damping factor = 0.85):
+
+Perplexity for iteration 1 is : 744.376201586
+Perplexity for iteration 2 is : 704.203010086
+Perplexity for iteration 3 is : 680.898831551
+Perplexity for iteration 4 is : 678.495174194
+
+
+
+The PageRank values for Graph G1.txt baseline for damping factor = 0.85 until convergence is : 
+
+('Wayback_Machine', 0.023393254052588925)
+('International_Standard_Book_Number', 0.02151738109410135)
+('Integrated_Authority_File', 0.018074497722621985)
+('Digital_object_identifier', 0.01740042833710218)
+('Library_of_Congress_Control_Number', 0.013232132129553863)
+('Bibcode', 0.009541795940408628)
+('PubMed_Identifier', 0.007964257769863257)
+('National_Diet_Library', 0.00639866757911535)
+('OCLC', 0.005832270521026301)
+('Astronomy', 0.005702296660279012)
+('Moon', 0.0054313768766297826)
+
+
+
+
+The ranking of the PageRank values after 4 iteration are almost the same as that after convergence.But there is a difference in the PageRank value.For instance the PageRank value of Wayback_Machine after 4 iteration is 0.025 , whereas the PageRank value of Wayback_Machine after convergence is 0.023.Therefore the pageRank value in the 4th iteration are still converging.Also if we see the relative ranking in the top 10 pages has been the same for 4 iterations and after convergence.
+
+
+The Page Rank values for Graph G2.txt for exactly 4 iterations are(damping factor = 0.85) : 
+
+('Argentina', 0.02621311319102342)
+('Buenos_Aires', 0.013578993017716924)
+('Brazil', 0.013343297352128834)
+('Spanish_language', 0.012749451797596168)
+('Chile', 0.009370485622974243)
+('Geographic_coordinate_system', 0.009202347621658846)
+('United_Nations', 0.009080481774631777)
+('Uruguay', 0.007410656678181598)
+('French_language', 0.0071150349568432246)
+('Peru', 0.007018143876623554)
+('Bolivia', 0.006654187460170744)
+('English_language', 0.0059342085929335415)
+('Paraguay', 0.005909810791985109)
+('Venezuela', 0.005544211826166119)
+('South_America', 0.005123226303340808)
+('World_War_I', 0.005041058874235583)
+('Arabic_language', 0.005025971508095226)
+('Italian_language', 0.005018807555157294)
+('Romania', 0.004849545690554171)
+
+
+
+
+
+
+The perplexity values after 4 iteration for G2.txt are (damping factor = 0.85):
+
+Perplexity for iteration 1 is : 540.16777228
+Perplexity for iteration 2 is : 618.870682373
+Perplexity for iteration 3 is : 590.401497579
+Perplexity for iteration 4 is : 587.097160549
+
+
+The PageRank value of the baseline (DFS) for damping factor = 0.85 is : 
+
+('Argentina', 0.02570466587555244)
+('Brazil', 0.01368501118438618)
+('Spanish_language', 0.012928403659576928)
+('Buenos_Aires', 0.012732723555648983)
+('United_Nations', 0.009802027934217146)
+('Chile', 0.009607276402852465)
+('Geographic_coordinate_system', 0.008953290652162424)
+('French_language', 0.007747893738275873)
+('Uruguay', 0.007496617180896127)
+('Peru', 0.007254442444261534)
+('Bolivia', 0.006827425805581671)
+('English_language', 0.006497749876917415)
+('Paraguay', 0.0060059582585729205)
+('Venezuela', 0.005869360702054131)
+('World_War_I', 0.005452573326698911)
+('Italian_language', 0.0052485833496848655)
+('Romania', 0.00520713109116101)
+
+Here we can see that the relative ordering of PageRank values are changing.For ex Brazil is 2nd in the PageRank value after convergence where it is 3rd in the 4th iteration.Also Buenos_Aires is 2nd in the 4th iteration , but it goes to rank 4 after convergence.Therefore some docs go up the ranking and some go down in the ranking after the convergence.So in the 4th iteration the PageRank values are still in the initial stage and their ordering are changing upon convergence.Also we can see that in the 4th iteration scenario and upon convergence , there are a lot of docs in common.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+The top 10 pages with the inlink counts are the following for the Graph G1.txt :
+
+('Solar_eclipse', 687)
+('Eclipse', 632)
+('Solar_eclipses_on_the_Moon', 596)
+('Moon', 559)
+('Sun', 553)
+('Transit_(astronomy)', 532)
+('Solar_eclipse_of_August_11,_1999', 530)
+('Saros_(astronomy)', 525)
+('Solar_eclipse_of_August_21,_2017', 525)
+('Solar_eclipse_of_May_29,_1919', 525)
+
+For a damping factor of 0.85 , the results for Page Rank value for G1.txt are : 
+
+('Wayback_Machine', 0.023393254052588925)
+('International_Standard_Book_Number', 0.02151738109410135)
+('Integrated_Authority_File', 0.018074497722621985)
+('Digital_object_identifier', 0.01740042833710218)
+('Library_of_Congress_Control_Number', 0.013232132129553863)
+('Bibcode', 0.009541795940408628)
+('PubMed_Identifier', 0.007964257769863257)
+('National_Diet_Library', 0.00639866757911535)
+('OCLC', 0.005832270521026301)
+('Astronomy', 0.005702296660279012)
+('Moon', 0.0054313768766297826)
+
+Page Rank is a query independent metadata which helps to improve the ranking of web search.Web pages have the same pageRank value regardless of what the query is being processed.
+PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.
+Comparing the data for top 10 pages for graph G1.txt with their inlink counts and the Page Rank value , we can see that moon which is at 4th position in the list of inlink counts , is at 11th position in the list of Page Rank values.The reason could be that moon has many outlinks from it and hence it has come lower in the PageRank ranking which also considers the outlink count.
+Also we can see that the rest of the pages which have higher inlink count are not in the top 10 of the Page Rank value.
+
+The pros of using inlink count as compared to Page Rank are the follwing : Firstly the computation of inlink count takes less time and hence can be calculated faster, whereas the PageRank algorithm can take much more time to converge to a value.
+Also we can observe that the inlink count is giving more docs relevant to the query where as the Page Rank algorithm gives the pages based on its importance without taking into account the query.
+The cons of using inlink count is that it does not consider the outgoing links from a particular page.For example if a particular page has high inlink count and also has high outlinks then it would contribute less to the page rank of a particular page p than the page that has the same number of inlinks but has lower outlinks.The inlink count does not take this in consideration whereas the Page Rank algorithm does take scenario into consideration.
+Also one of the pro of inlink count is that it takes into consideration the number of inlinks to a page , which means that the page with more number of inlinks might be more popular.But there is also a downsite to it ,that people can easily spam and make the pageRank value of their doc higher.
+
+Also the inlink count is susceptible to spamming.A page with higher inlink count may not be relevant.
+Also the inlink count may not be a good measure as it does not take into account the quality of inlinks , which the Page Rank algorithm takes into account.
+
+Moreover if a page has an inlink from a popular page (page having higher page Rank value), it increases the Page Rank of that particular page more than the situation where it has the inlink from a less popular page.For example , a page p having a link from a popular page like CNN will have higher page rank value as compared to another page p1 which has 3-4 links from very less popular pages like personal blogs.Thus we can say that page rank takes into account the inlinks as well as the quality of the inlinks where as the inlink count does not take into account the quality of inlink.
+
+For ex . Solar eclipse is at the top of the inlink counts.So we are not taking into account the number of outlinks from the solar eclipse so it is possible that its page rank is reduced because of the large number of outlinks and hence it is not even there in the top 10 page Rank list.
+Also we can see that some of the docs such as 'Moon' are there in both the Top Page Rank values and in the top Pages with most inlink counts.So we can say that inlinks count is an indicator of a higher Page Rank.But it may not be true always , for instance in the scenario when the page has many outlinks as well.
+
+
+Top 10 pages with their inlink counts for the Graph G2.txt are :  
+
+('Argentina', 628)
+('Buenos_Aires', 404)
+('Spanish_language', 259)
+('Brazil', 227)
+('Chile', 222)
+('Geographic_coordinate_system', 197)
+('Uruguay', 191)
+('Buenos_Aires_Province', 168)
+('President_of_Argentina', 166)
+('Bolivia', 160)
+
+
+For a damping factor of 0.85 , the results for Page Rank value for G2.txt are : 
+
+('Argentina', 0.02570466587555244)
+('Brazil', 0.01368501118438618)
+('Spanish_language', 0.012928403659576928)
+('Buenos_Aires', 0.012732723555648983)
+('United_Nations', 0.009802027934217146)
+('Chile', 0.009607276402852465)
+('Geographic_coordinate_system', 0.008953290652162424)
+('French_language', 0.007747893738275873)
+('Uruguay', 0.007496617180896127)
+('Peru', 0.007254442444261534)
+('Bolivia', 0.006827425805581671)
+
+
+
+The ranking of most of the pages with the Page Rank values and inlink counts are almost the same for Graph G2.txt 
+Page Rank is a query independent metadata which helps to improve the web search.
+PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.
+Comparing the data for top 10 pages for graph G2.txt with their inlink counts and the Page Rank value , we conclude that the page having more inlink count is more probable to have a more Page Rank Value.We can see that Argentina which has the highest inlink count also has the highest Rank in the Page Rank value.Also Brazil which is ranked 4 in the inlink counts is ranked 2nd in the Page Rank value list.So looking at the data for Graph G2.txt we can conclude that the Page Rank value of the graph is more if the graph has more inlink count.
+The pages that have higher inlink count also are having higher PageRank.
+
+
+
+Conclusion : Analysing the results for Graph G1.txt and Graph G2.txt , we can see that the pages with the higher inlink count have a higher chance of obtaining better Page Rank but that is not always true ,since while calculating the page Rank value other factors are also taken into consideration.
+
+

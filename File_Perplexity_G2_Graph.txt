@@ -1,0 +1,15 @@
+File perplexity values for Graph G2 until convergence are :
+
+
+Perplexity for iteration 1 is : 540.16777228
+Perplexity for iteration 2 is : 618.870682373
+Perplexity for iteration 3 is : 590.401497579
+Perplexity for iteration 4 is : 587.097160549
+Perplexity for iteration 5 is : 582.385782354
+Perplexity for iteration 6 is : 579.764630096
+Perplexity for iteration 7 is : 578.058710344
+Perplexity for iteration 8 is : 576.895975068
+Perplexity for iteration 9 is : 576.148776618
+Perplexity for iteration 10 is : 575.631199344
+Perplexity for iteration 11 is : 575.289317242
+Perplexity for iteration 12 is : 575.049911149
